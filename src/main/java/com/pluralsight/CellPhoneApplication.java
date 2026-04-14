@@ -28,11 +28,11 @@ public class CellPhoneApplication {
         String owner = scanner.nextLine();
         cellPhone1.setOwner(owner);
 
-        System.out.println(cellPhone1.getSerialNumber());
-        System.out.println(cellPhone1.getModel());
-        System.out.println(cellPhone1.getCarrier());
-        System.out.println(cellPhone1.getPhoneNumber());
-        System.out.println(cellPhone1.getOwner());
+        System.out.println("serial number: " + cellPhone1.getSerialNumber());
+        System.out.println("model: " + cellPhone1.getModel());
+        System.out.println("carrier: " + cellPhone1.getCarrier());
+        System.out.println("phone number: " + cellPhone1.getPhoneNumber());
+        System.out.println("owner: " + cellPhone1.getOwner());
         scanner.close();
     }
 }
