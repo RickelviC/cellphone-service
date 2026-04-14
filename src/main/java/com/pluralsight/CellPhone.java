@@ -2,18 +2,18 @@ package com.pluralsight;
 
 public class CellPhone {
 
-    private int serialNumber = 0;
-    private String model = "";
-    private String carrier = "";
-    private String phoneNumber = "";
-    private String owner = "";
+    private int serialNumber;
+    private String model;
+    private String carrier;
+    private String phoneNumber;
+    private String owner;
 
-    public CellPhone(int serialNumber, String owner, String phoneNumber, String carrier, String model) {
-        this.serialNumber = serialNumber;
-        this.owner = owner;
-        this.phoneNumber = phoneNumber;
-        this.carrier = carrier;
-        this.model = model;
+    public CellPhone() {
+        this.serialNumber = 0;
+        this.owner = "";
+        this.phoneNumber = "";
+        this.carrier = "";
+        this.model = "";
     }
 
     public int getSerialNumber() {
