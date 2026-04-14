@@ -22,7 +22,7 @@ public class CellPhoneApplication {
 
         System.out.println("What is the phone number? ");
         String phoneNumber = scanner.nextLine();
-        cellPhone1.setCarrier(phoneNumber);
+        cellPhone1.setPhoneNumber(phoneNumber);
 
         System.out.println("Who is the owner of the phone? ");
         String owner = scanner.nextLine();
