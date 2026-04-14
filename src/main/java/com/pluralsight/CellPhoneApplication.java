@@ -9,10 +9,24 @@ public class CellPhoneApplication {
 
         System.out.print("What is the serial number? ");
         int serialNumber = scanner.nextInt();
+        scanner.nextLine();
         cellPhone1.setSerialNumber(serialNumber);
 
         System.out.println("What model is the phone? ");
+        String model = scanner.nextLine();
+        cellPhone1.setModel(model);
 
+        System.out.println("Who is the carrier? ");
+        String carrier = scanner.nextLine();
+        cellPhone1.setCarrier(carrier);
+
+        System.out.println("What is the phone number? ");
+        String phoneNumber = scanner.nextLine();
+        cellPhone1.setCarrier(phoneNumber);
+
+        System.out.println("Who is the owner of the phone? ");
+        String owner = scanner.nextLine();
+        cellPhone1.setCarrier(owner);
 
 
         scanner.close();
