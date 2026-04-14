@@ -33,6 +33,7 @@ public class CellPhoneApplication {
         System.out.println("carrier: " + cellPhone1.getCarrier());
         System.out.println("phone number: " + cellPhone1.getPhoneNumber());
         System.out.println("owner: " + cellPhone1.getOwner());
+
         scanner.close();
     }
 }
